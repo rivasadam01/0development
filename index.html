@@ -14,30 +14,51 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="collapsible">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-      
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
- 
+    <section class="block container">
+      <header class="block__header">
+        <h2 class="block__heading">Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
+          in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
+        </p>
       </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat praesentium mollitia optio deserunt magnam autem consectetur commodi porro! Tenetur.
+      <div style="width: 40%; padding: 4rem">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <h3>Entry</h3>
+            <span>$14</span>
+            <span>/month</span>
+            <span class="badge badge--secondary badge--small">10% Off</span>
+            <span>Easy start on the cloud</span>
+          </header>
+
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Unlimited Websites</li>
+              <li class="list__item">Unlimited Bandwith</li>
+              <li class="list__item">100GB SSD Storage</li>
+              <li class="list__item">3 GB RAM</li>
+            </ul>
+            <button class="btn btn--outline btn--block">Buy Now</button>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="collapsible">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-      
-          <svg class="icon icon--white collapsible__chevron">
-            <use xlink:href="images/sprite.svg#chevron"></use>
- 
-      </header>
-      <div class="collapsible__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fugiat praesentium mollitia optio deserunt magnam autem consectetur commodi porro! Tenetur.
+    </section>
+    <section class="block block--dark block--skewed-right">
+      <div class="container">
+        <h2 class="block__heading">Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
+          in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
+        </p>
       </div>
-    </div>
-    <script src="js/styles.js"></script>
+    </section>
+    <section class="block block--dark block--skewed-left">
+      <h2 class="block__heading">Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
+        in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
+      </p>
+    </section>
   </body>
 </html>
