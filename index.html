@@ -14,54 +14,44 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
-      <div class="block__header">
-        <h2 class="block__heading">User-Friendly Control Panel</h2>
-      </div>
-      <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-          <source
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
-            type="image/webp"
-          />
-          <source
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-            type="image/png"
-          />
-          <img src="images/ipad.png" alt="" />
-        </picture>
-       <ul class="list">
-         <li>
-          <div class="media">
-            <div class="media__image"><svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#snap"></use></div>
-            <div class="media__body">
-              <h3 class="media__title">Easy Start & Managed Updates</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum optio alias voluptatum explicabo at obcaecati nihil expedita tenetur minus placeat.</p>
+    <section class="block">
+      <header class="block__header">
+        <h2>What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quo
+          nam quae, iste sit id eveniet ea necessitatibus soluta cum.
+        </p>
+      </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img src="images/testimonial.jpg" alt="" srcset="" />
+
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
             </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+                temporibus at ab non sit illo neque ullam rerum similique ad.
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image"><svg class="icon icon--primary quote__line">
+                    <use xlink:href="images/sprite.svg#line"></use></div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__company">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
           </div>
-         </li>
-         <li>
-          <div class="media">
-            <div class="media__image"><svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#growth"></use></div>
-            <div class="media__body">
-              <h3 class="media__title">Staging, Git & WP-CLI</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum optio alias voluptatum explicabo at obcaecati nihil expedita tenetur minus placeat.</p>
-            </div>
-          </div>
-         </li>
-         <li>
-          <div class="media">
-            <div class="media__image"><svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#wordpress"></use></div>
-            <div class="media__body">
-              <h3 class="media__title">Dynamic Caching & More</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum optio alias voluptatum explicabo at obcaecati nihil expedita tenetur minus placeat.</p>
-            </div>
-          </div>
-         </li>
-       </ul>
+        </div>
       </div>
     </section>
     <script src="js/styles.js"></script>
