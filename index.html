@@ -14,51 +14,24 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
-          in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
-        </p>
-      </header>
-      <div style="width: 40%; padding: 4rem">
-        <div class="card card--secondary">
-          <header class="card__header">
-            <h3>Entry</h3>
-            <span>$14</span>
-            <span>/month</span>
-            <span class="badge badge--secondary badge--small">10% Off</span>
-            <span>Easy start on the cloud</span>
-          </header>
-
-          <div class="card__body">
-            <ul class="list list--tick">
-              <li class="list__item">Unlimited Websites</li>
-              <li class="list__item">Unlimited Bandwith</li>
-              <li class="list__item">100GB SSD Storage</li>
-              <li class="list__item">3 GB RAM</li>
-            </ul>
-            <button class="btn btn--outline btn--block">Buy Now</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="block block--dark block--skewed-right">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
-          in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
-        </p>
-      </div>
-    </section>
-    <section class="block block--dark block--skewed-left">
-      <h2 class="block__heading">Heading</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore unde
-        in eveniet, quis tenetur molestiae vitae iusto optio dolores non.
-      </p>
-    </section>
+    <nav class="nav collapsible">
+      <a href="/">
+        <svg
+          viewBox="0 0 410.000000 750.000000"
+          class="icon icon--white icon--large nav__brand"
+        >
+          <use xlink:href="images/logo.svg#logo"></use></svg
+      ></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+    <script src="js/styles.js"></script>
   </body>
 </html>
